@@ -12,7 +12,7 @@ Various methods using machine and deep learning have been proposed to tackle dif
 
 [Repository](https://github.com/jaripeeperkorn/LSTM_Process_Model_Structure)
 
-
+Experimental setup:
 ![](/images/gen.PNG)
 
 
