@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV here](https.jaripeeperkorn.github.io/files/CV.pdf)
+[Download CV here](https://jaripeeperkorn.github.io/files/CV.pdf)
 
 Education
 ======
