@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /PU/
-title: "Generalization and validation of predictive process monitoring models"
+title: "Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs"
 author_profile: true
 ---
 

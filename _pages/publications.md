@@ -7,12 +7,10 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  
 {% endif %}
 
 {% include base_path %}
-
-======
-
 Generalization and validation of predictive process monitoring models
 ======
 * Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330

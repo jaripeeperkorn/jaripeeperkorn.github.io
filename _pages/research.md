@@ -9,4 +9,6 @@ author_profile: true
 
 [Generalization and validation of predictive process monitoring models](/generalization)
 
-Other reserach lines to be added soon.
+[Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs](/PU)
+
+Other research lines to be added soon.

@@ -9,7 +9,10 @@ Conformance checking refers to techniques that can compare normative process beh
 
 [Repository](https://github.com/jaripeeperkorn/ML_Conformance)
 
+Embedding-based approach:
 ![](/images/emb_conf.PNG)
+
+Supervised approach
 ![](/images/RNN_conf.PNG)
 
 Publications
