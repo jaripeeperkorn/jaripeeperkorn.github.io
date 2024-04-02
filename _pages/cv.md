@@ -9,56 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV here](https.jaripeeperkorn.github.io/files/CV.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Business Economics, KU Leuven, 2023 
+* M.S. in Astronomy & Astrophysics, KU Leuven, 2019
+* B.S. in Physics, KU Leuven, 2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023-2024: Postdoctoral Researcher
+  * KU Leuven
+  * Process Model Forecasting
+  * Supervisor: Johannes De Smedt & Jochen De Weerdt
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019-2023: PhD Researcher
+  * KU Leuven
+  * Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
+  * Supervisors: Jochen De Weerdt & Seppe vanden Broucke
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Awards and Prizes
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2021: Best Paper 2nd International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)
+  * Won best paper together with Seppe vanden Broucke and Jochen De Weerdt for work titled ”Can deep neural networks learn process model structure? An assessment framework and analysis”
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2020: Winner best PhD team at KU Leuven Datathon 
+  * Our team won the prize for best PhD team at the datathon for our application: Clean Air Route Finder, which could be used to fidn the route between two places in Leuven on which you would breathe in the least particulate matter
