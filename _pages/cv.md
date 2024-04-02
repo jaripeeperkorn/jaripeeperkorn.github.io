@@ -11,10 +11,11 @@ redirect_from:
 
 Download CV [here](https://jaripeeperkorn.github.io/files/CV.pdf)
 
+
 Education
 ======
 * Ph.D in Business Economics, KU Leuven, 2023 
-* M.S. in Astronomy & Astrophysics,hops KU Leuven, 2019
+* M.S. in Astronomy & Astrophysics, KU Leuven, 2019
 * B.S. in Physics, KU Leuven, 2017
 
 Work experience
