@@ -11,9 +11,9 @@ author_profile: true
 
 {% include base_path %}
 
+======
 
-
-Generalization and validation of predictive process monitoring
+Generalization and validation of predictive process monitoring models
 ======
 * Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330
 * Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), https://doi.org/10.1007/s10844-022-00765-x
