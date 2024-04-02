@@ -127,7 +127,7 @@
 
 .sidebar .author__desktop {
   display: none;
-  @media screen and (min-width: 256px) {
+  @media screen and (min-width: 10px) {
     display: block;
   }
 }
