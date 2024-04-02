@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 10px) {
     position: fixed;
     padding-top: $masthead-height;
   }
