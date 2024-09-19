@@ -20,6 +20,10 @@ Education
 
 Work experience
 ======
+* 2024-...: FWO Postdoctoral Researcher
+  * Host: KU Leuven
+  * Project: Robust Multi-Modal Prediction in Business Processes  
+
 * 2023-2024: Postdoctoral Researcher
   * KU Leuven
   * Process Model Forecasting
@@ -37,3 +41,8 @@ Awards and Prizes
 
 * 2020: Winner best PhD team at KU Leuven Datathon 
   * Our team won the prize for best PhD team at the datathon for our application: Clean Air Route Finder, which could be used to fidn the route between two places in Leuven on which you would breathe in the least particulate matter
+
+Awarded Grants
+======
+* 2024: FWO grant Junior postdoctoral fellowship
+  * For the project ’Robust Multi-Modal Prediction in Business Processes’ I have received 3 years funding (starting in October 2024).
