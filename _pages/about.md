@@ -16,3 +16,6 @@ I have previosuly worked on a project on process model forecasting. Other projec
 I have succesfully defended my PhD dissertation on "Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining" in 2023. 
 
 If you want to collaborate, or have any questions about the works I have been involved in, feel free to contact me.
+
+![](/images/fwo.jfif)
+![](/images/liris.png)
