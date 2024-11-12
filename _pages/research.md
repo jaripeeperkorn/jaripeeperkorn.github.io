@@ -7,7 +7,7 @@ author_profile: true
 
 [ML-driven Conformance Checking](/conformance){: .btn--custom}
 
-[Generalization and Validation of Predictive Process Monitoring mMdels](/generalization){: .btn--custom}
+[Generalization and Validation of Predictive Process Monitoring Models](/generalization){: .btn--custom}
 
 [Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs](/PU){: .btn--custom}
 

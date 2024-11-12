@@ -17,3 +17,7 @@ Our proposed relational schema:
 Preprint
 =======
 * Lien Bosmans, Jari Peeperkorn, Alexandre Goossens, Giovanni Lugaresi, Johannes De Smedt, Jochen De Weerdt, Dynamic and Scalable Data Preparation for Object-Centric Process Mining, https://arxiv.org/abs/2410.00596
+
+Also included in:
+=======
+* Dirk Fahland, Marco Montali, Julian Lebherz, Wil M.P. van der Aalst, Maarten van Asseldonk, Peter Blank, Lien Bosmans, Marcus Brenscheidt, Claudio di Ciccio, Andrea Delgado, Daniel Calegari, Jari Peeperkorn, Eric Verbeek, Lotte Vugs, Moe Thandar Wynn, Towards a Simple and Extensible Standard for Object-Centric Event Data (OCED) -- Core Model, Design Space, and Lessons Learned, https://arxiv.org/abs/2410.14495
