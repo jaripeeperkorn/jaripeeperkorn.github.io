@@ -6,7 +6,10 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+
+  </div>
   
 {% endif %}
 
@@ -35,7 +38,7 @@ In conference/workshop proceedings
 
 Posters
 ======
-Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW), Liege, Belgium
+* Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW), Liege, Belgium
 
 Preprints
 ======
