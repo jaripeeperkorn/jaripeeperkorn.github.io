@@ -38,7 +38,7 @@ In conference/workshop proceedings
 
 Posters
 ======
-* Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW), Liege, Belgium
+* Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW) 2019, Liege, Belgium
 
 Preprints
 ======
