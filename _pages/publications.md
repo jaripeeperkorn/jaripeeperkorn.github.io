@@ -15,12 +15,13 @@ author_profile: true
 
 Journal publications
 ======
-* Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, Global conformance checking measures using shallow representation and deep learning, Engineering Applications of Artificial Intelligence (2023), https://doi.org/10.1016/j.engappai.2023.106393
-* Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), https://doi.org/10.1007/s10844-022-00765-x
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Global conformance checking measures using shallow representation and deep learning", Engineering Applications of Artificial Intelligence (2023), https://doi.org/10.1016/j.engappai.2023.106393
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), https://doi.org/10.1007/s10844-022-00765-x
 
 In conference/workshop proceedings
 ======
+* Yongbo Yu, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt "Multivariate Approaches for Process Model Forecasting", Process Mining Workshops (ML4PM), ICPM 2024
 * Thais Rodrigues Neubauer, Jari Peeperkorn, Sarajane Marques Peres, Jochen De Weerdt, Marcelo Fantinato, "Vector Representation for Business Process: Graph Embedding for Domain Knowledge Integration", 2023 International Conference on Machine Learning and Applications (ICMLA), https://doi.org/10.1109/ICMLA58977.2023.00087
 * Alexander Stevens, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt, "Manifold Learning for Adversarial Robustness in Predictive Process Monitoring", 2023 5th International Conference on Process Mining (ICPM), "https://doi.org/10.1109/ICPM60904.2023.10271991"
 * Jan Niklas Adams, Jari Peeperkorn, Tobias Brockhoff, Isabelle Terrier, Heiko Göhner, Merih Seran Uysal, Jochen De Weerdt, Wil MP van der Aalst, "Discovering high-quality process models despite data scarcity", : Companion Proceedings of the 42nd International Conference on Conceptual Modeling: ER Forum 2023, https://ceur-ws.org/Vol-3618/forum_paper_23.pdf
@@ -32,7 +33,20 @@ In conference/workshop proceedings
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Supervised Conformance Checking Using Recurrent Neural Network Classifiers", Process Mining Workshops (ML4PM), ICPM 2020, https://doi.org/10.1007/978-3-030-72693-5_14
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Conformance Checking Using Activity and Trace Embeddings", Business Process Management Forum, BPM 2020, https://doi.org/10.1007/978-3-030-58638-6_7
 
+Posters
+======
+Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW), Liege, Belgium
+
 Preprints
 ======
-* Lien Bosmans, Jari Peeperkorn, Alexandre Goossens, Giovanni Lugaresi, Johannes De Smedt, Jochen De Weerdt, Dynamic and Scalable Data Preparation for Object-Centric Process Mining, https://arxiv.org/abs/2410.00596
-* Dirk Fahland, Marco Montali, Julian Lebherz, Wil M.P. van der Aalst, Maarten van Asseldonk, Peter Blank, Lien Bosmans, Marcus Brenscheidt, Claudio di Ciccio, Andrea Delgado, Daniel Calegari, Jari Peeperkorn, Eric Verbeek, Lotte Vugs, Moe Thandar Wynn, Towards a Simple and Extensible Standard for Object-Centric Event Data (OCED) -- Core Model, Design Space, and Lessons Learned, https://arxiv.org/abs/2410.14495
+* Lien Bosmans, Jari Peeperkorn, Alexandre Goossens, Giovanni Lugaresi, Johannes De Smedt, Jochen De Weerdt, "Dynamic and Scalable Data Preparation for Object-Centric Process Mining", https://arxiv.org/abs/2410.00596
+* Dirk Fahland, Marco Montali, Julian Lebherz, Wil M.P. van der Aalst, Maarten van Asseldonk, Peter Blank, Lien Bosmans, Marcus Brenscheidt, Claudio di Ciccio, Andrea Delgado, Daniel Calegari, Jari Peeperkorn, Eric Verbeek, Lotte Vugs, Moe Thandar Wynn, "Towards a Simple and Extensible Standard for Object-Centric Event Data (OCED) -- Core Model, Design Space, and Lessons Learned", https://arxiv.org/abs/2410.14495
+
+In Submission
+======
+* Jari Peeperkorn, Simon De Vos, "Achieving Group Fairness in Outcome Oriented Predictive Process Monitoring"
+* Alexander Stevens, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt, "Generating Realistic Adversarial Examples for Business Processes using Variational Autoencoders"
+
+Doctoral Booklet
+======
+* Jari Peeperkorn, "Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining" (2013)
