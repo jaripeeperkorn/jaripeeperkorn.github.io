@@ -52,4 +52,4 @@ In Submission
 
 Doctoral Booklet
 ======
-* Jari Peeperkorn, "Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining" (2013)
+* Jari Peeperkorn, "Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining" (2023)
