@@ -24,6 +24,7 @@ Journal publications
 
 In conference/workshop proceedings
 ======
+* Thais Rodrigues Neubauer, Jari Peeperkorn, Jochen De Weerdt, Marcelo Fantinato, Sarajane Marques Peres, "Enhancing Remaining Time Prediction in Business Processes through Graph Embedding", Proceedings of the 58th Hawaii International Conference on System Sciences, HICSS 2025
 * Yongbo Yu, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt "Multivariate Approaches for Process Model Forecasting", Process Mining Workshops (ML4PM), ICPM 2024
 * Thais Rodrigues Neubauer, Jari Peeperkorn, Sarajane Marques Peres, Jochen De Weerdt, Marcelo Fantinato, "Vector Representation for Business Process: Graph Embedding for Domain Knowledge Integration", 2023 International Conference on Machine Learning and Applications (ICMLA), https://doi.org/10.1109/ICMLA58977.2023.00087
 * Alexander Stevens, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt, "Manifold Learning for Adversarial Robustness in Predictive Process Monitoring", 2023 5th International Conference on Process Mining (ICPM), "https://doi.org/10.1109/ICPM60904.2023.10271991"
