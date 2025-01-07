@@ -1,5 +1,5 @@
 ---
-title: "Process Mining and Predictive P rocess Monitoring"
+title: "Process Mining and Predictive Process Monitoring"
 collection: talks
 type: "Talk"
 permalink: /talks/kbc
