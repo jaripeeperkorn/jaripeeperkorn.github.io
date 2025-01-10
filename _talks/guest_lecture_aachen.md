@@ -1,5 +1,5 @@
 ---
-title: "Guest lecture at RWTH Aachen in the Advaced Process Mining course"
+title: "Guest lecture at RWTH Aachen in the Advanced Process Mining course"
 collection: talks
 type: "Talk"
 permalink: /talks/guest_lecture_aachen

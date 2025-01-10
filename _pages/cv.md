@@ -36,8 +36,11 @@ Work experience
 
 Awards and Prizes
 ======
-* 2021: Best Paper 2nd International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)
-  * Won best paper together with Seppe vanden Broucke and Jochen De Weerdt for work titled ”Can deep neural networks learn process model structure? An assessment framework and analysis”
+* 2024: Co-author best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)  
+  * For the work titled ” Multivariate Approaches for Process Model Forecasting” by Yongbo Yu, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt , 2024, Copenhagen
+
+* 2021: Best Paper International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)
+  * Won best paper together with Seppe vanden Broucke and Jochen De Weerdt for work titled ”Can deep neural networks learn process model structure? An assessment framework and analysis”, 2021, Eindhoven
 
 * 2020: Winner best PhD team at KU Leuven Datathon 
   * Our team won the prize for best PhD team at the datathon for our application: Clean Air Route Finder, which could be used to fidn the route between two places in Leuven on which you would breathe in the least particulate matter
