@@ -26,6 +26,6 @@ Previous studies investigating the efficacy of long short-term memory (LSTM) rec
 
 Publications
 =======
-* Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330
-* Jari Peeperkorn, Seppe vanden Borucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), https://doi.org/10.1007/s10844-022-00765-x
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), https://doi.org/10.1016/j.is.2023.102330
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), https://doi.org/10.1007/s10844-022-00765-x
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can deep neural networks learn process model structure? An assessment framework and analysis", Process Mining Workshops (ML4PM), ICPM 2021, https://doi.org/10.1007/978-3-030-98581-3_10
