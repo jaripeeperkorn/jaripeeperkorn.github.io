@@ -48,8 +48,10 @@ Preprints
 
 In Submission
 ======
-* Jari Peeperkorn, Simon De Vos, "Achieving Group Fairness through Independence in Predictive Process Monitoring"
+* Jari Peeperkorn, Simon De Vos, "Achieving Group Fairness through Independence in Predictive Process Monitoring" (accepeted for presentation at Caise 2025)
+* Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt, "Active Stochastic Trace Clustering"
 * Alexander Stevens, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt, "Generating Realistic Adversarial Examples for Business Processes using Variational Autoencoders"
+* Other works on process model forcasting, predictive process monitoring using LLMs, etc.
 
 Doctoral Booklet
 ======

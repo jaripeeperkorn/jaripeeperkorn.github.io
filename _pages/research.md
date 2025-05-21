@@ -13,4 +13,8 @@ author_profile: true
 
 [Dynamic and Scalable Data Preparation for Object-Centric Process Mining](/stackt){: .btn--custom}
 
+[Fairness in Predictive Process Monitoring](/fairness){: .btn--custom}
+
+[Trace Clustering](/clustering){: .btn--custom}
+
 Other research lines to be added soon.
