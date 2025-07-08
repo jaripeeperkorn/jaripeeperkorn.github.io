@@ -12,6 +12,9 @@ Process discovery algorithms automatically extract process models from event log
 
 [Repository](https://github.com/jaripeeperkorn/EntropicClustering){: .btn}
 
+![](/images/stochastic_cluster.png)
+
+
 Preprint
 =======
 * Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, "Model-driven Stochastic Trace Clustering", https://arxiv.org/abs/2506.23776

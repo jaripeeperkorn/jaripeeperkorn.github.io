@@ -13,6 +13,10 @@ Predictive process monitoring focuses on forecasting future states of ongoing pr
 
 [Repository](https://github.com/jaripeeperkorn/Group-Fairness-in-Predictive-Process-Monitoring){: .btn}
 
+![](/images/distrfairness.png)
+
+![](/images/tradeofffairness.png)
+
 Publication
 =======
 * Jari Peeperkorn, Simon De Vos, Achieving Group Fairness through Independence in Predictive Process Monitoring, Advanced Information Systems Engineering, Lecture Notes in Computer Science, vol 15701, CAiSE 2025
