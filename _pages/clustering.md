@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /Clustering/
+permalink: /clustering/
 title: "Trace Clustering"
 author_profile: true
 ---
