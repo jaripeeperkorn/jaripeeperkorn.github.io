@@ -17,4 +17,5 @@ Process discovery algorithms automatically extract process models from event log
 
 Preprint
 =======
-* Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, "Model-driven Stochastic Trace Clustering", https://arxiv.org/abs/2506.23776
+
+* Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, "Model-driven Stochastic Trace Clustering", [arXiv:2506.23776](https://arxiv.org/abs/2506.23776)

@@ -14,4 +14,5 @@ A lot of recent literature on outcome-oriented predictive process monitoring foc
 
 Publication
 =======
-* Jari Peeperkorn, Carlos Ortega Vázquez, Alexander Stevens, Johannes De Smedt, Seppe vanden Broucke, Jochen De Weerdt, "Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs", Process Mining Workshops (ML4PM), ICPM 2022, https://doi.org/10.1007/978-3-031-27815-0_19
+
+* Jari Peeperkorn, Carlos Ortega Vázquez, Alexander Stevens, Johannes De Smedt, Seppe vanden Broucke, Jochen De Weerdt, "Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs", Process Mining Workshops (ML4PM), ICPM 2022, [https://doi.org/10.1007/978-3-031-27815-0_19](https://doi.org/10.1007/978-3-031-27815-0_19)

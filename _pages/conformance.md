@@ -15,8 +15,8 @@ Embedding-based approach:
 Supervised approach
 ![](/images/RNN_conf.PNG)
 
-Publications
-=======
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, Global conformance checking measures using shallow representation and deep learning, Engineering Applications of Artificial Intelligence (2023), https://doi.org/10.1016/j.engappai.2023.106393
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Supervised Conformance Checking Using Recurrent Neural Network Classifiers", Process Mining Workshops (ML4PM), ICPM 2020, https://doi.org/10.1007/978-3-030-72693-5_14
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Conformance Checking Using Activity and Trace Embeddings", Business Process Management Forum, BPM 2020, https://doi.org/10.1007/978-3-030-58638-6_7
+## Publications
+
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, Global conformance checking measures using shallow representation and deep learning, Engineering Applications of Artificial Intelligence (2023), [https://doi.org/10.1016/j.engappai.2023.106393](https://doi.org/10.1016/j.engappai.2023.106393)
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Supervised Conformance Checking Using Recurrent Neural Network Classifiers", Process Mining Workshops (ML4PM), ICPM 2020, [https://doi.org/10.1007/978-3-030-72693-5_14](https://doi.org/10.1007/978-3-030-72693-5_14)
+* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Conformance Checking Using Activity and Trace Embeddings", Business Process Management Forum, BPM 2020, [https://doi.org/10.1007/978-3-030-58638-6_7](https://doi.org/10.1007/978-3-030-58638-6_7)

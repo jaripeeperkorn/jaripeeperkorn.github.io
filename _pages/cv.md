@@ -9,17 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Download CV [here](https://jaripeeperkorn.github.io/files/CV.pdf)
+[Download full CV here](https://jaripeeperkorn.github.io/files/CV.pdf)
 
+## Education
 
-Education
-======
 * Ph.D in Business Economics, KU Leuven, 2023 
 * M.S. in Astronomy & Astrophysics, KU Leuven, 2019
 * B.S. in Physics, KU Leuven, 2017
 
-Work experience
-======
+## Work experience
+
 * 2024-...: FWO Postdoctoral Researcher
   * Host: KU Leuven
   * Project: Robust Multi-Modal Prediction in Business Processes  
@@ -34,8 +33,8 @@ Work experience
   * Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
   * Supervisors: Jochen De Weerdt & Seppe vanden Broucke
 
-Awards and Prizes
-======
+## Awards and Prizes
+
 * 2024: Co-author best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)  
   * For the work titled ” Multivariate Approaches for Process Model Forecasting” by Yongbo Yu, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt , 2024, Copenhagen
 
@@ -45,7 +44,7 @@ Awards and Prizes
 * 2020: Winner best PhD team at KU Leuven Datathon 
   * Our team won the prize for best PhD team at the datathon for our application: Clean Air Route Finder, which could be used to fidn the route between two places in Leuven on which you would breathe in the least particulate matter
 
-Awarded Grants
-======
+## Awarded Grants
+
 * 2024: FWO grant Junior postdoctoral fellowship
   * For the project ’Robust Multi-Modal Prediction in Business Processes’ I have received 3 years funding (starting in October 2024).
