@@ -17,4 +17,4 @@ author_profile: true
 
 [Trace Clustering](/clustering){: .btn--custom}
 
-Other research lines to be added soon. For a full list of papers, you are refered to the [publications sections](/_publications/).
+Other research lines to be added soon. For a full list of papers, you are refered to the [publications sections](/publications).
