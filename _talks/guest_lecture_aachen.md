@@ -5,7 +5,7 @@ type: "Talk"
 permalink: /talks/guest_lecture_aachen
 venue: "RWTH Aachen"
 date: 2024-06-26
-location: "Aachen"
+location: "Aachen, Germany"
 
 ---
 

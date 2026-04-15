@@ -16,6 +16,8 @@ author_profile: true
 
 ### Published
 
+* Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, (2026), "Model-driven stochastic trace clustering", Information Systems, 139, 102697, [https://doi.org/10.1016/j.is.2026.102697](https://doi.org/10.1016/j.is.2026.102697))
+* Yongbo Yu, Jari Peeperkornn, Johannes De Smedt \& Jochen De Weerdt (2025), "A benchmarking study on process model forecasting: univariate vs. multivariate approaches". Process Science, 2, 24 (2025), [https://doi.org/10.1007/s44311-025-00031-7](https://doi.org/10.1007/s44311-025-00031-7)
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), [https://doi.org/10.1016/j.is.2023.102330](https://doi.org/10.1016/j.is.2023.102330)
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Global conformance checking measures using shallow representation and deep learning", Engineering Applications of Artificial Intelligence (2023), [https://doi.org/10.1016/j.engappai.2023.106393](https://doi.org/10.1016/j.engappai.2023.106393)
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), [https://doi.org/10.1007/s10844-022-00765-x](https://doi.org/10.1007/s10844-022-00765-x)
@@ -23,8 +25,6 @@ author_profile: true
 ### In Submission
 
 * Alexander Stevens, Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, "Generating Realistic Adversarial Examples for Business Processes using Variational Autoencoders"
-* Yongbo Yu, Jari Peeperkornn, Johannes De Smedt \& Jochen De Weerdt, "A Benchmarking Study on Process Model Forecasting: Univariate vs. Multivariate Approaches"
-* Jari Peeperkorn, Johannes De Smedt \& Jochen De Weerdt, "Model-driven Stochastic Trace Clustering"
 
 ## In conference/workshop proceedings
 
@@ -44,19 +44,27 @@ author_profile: true
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Supervised Conformance Checking Using Recurrent Neural Network Classifiers", Process Mining Workshops (ML4PM), ICPM 2020, [https://doi.org/10.1007/978-3-030-72693-5_14](https://doi.org/10.1007/978-3-030-72693-5_14)
 * Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Conformance Checking Using Activity and Trace Embeddings", Business Process Management Forum, BPM 2020, [https://doi.org/10.1007/978-3-030-58638-6_7](https://doi.org/10.1007/978-3-030-58638-6_7)
 
-### Posters
 
-* Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW) 2019, Liege, Belgium
+
+### Accepted 
+* Rafael Oyamada, Jari Peeperkorn, Johannes De Smedt, "Fine-Tuning Large Language Models for Multi-Task Predictive Process Monitoring", ML4PM, ICPM 2025 
+* Yannis Bertrand, Martin Kabierski, Jari Peeperkorn, Seppe vanden Broucke, "How much can we improve process mining? A framework to analyse the impact of data quality on process discovery", Edba, ICPM 2025 
+* Yongbo Yu, Jari Peeperkorn, Johannes De Smedt and Jochen De Weerdt, "Time Series Foundation Models for Process Model Forecasting", CAiSE 2026 
+
 
 ### In Submission
 
-* Rafael Oyamada, Jari Peeperkorn, Johannes De Smedt, "Fine-Tuning Large Language Models for Multi-Task Predictive Process Monitoring"
-* Yannis Bertrand, Martin Kabierski, Jari Peeperkorn, Seppe vanden Broucke, "How much can we improve process mining? A framework to analyse the impact of data quality on process discovery"
+* Multiple works (under doubli blind review possibly)
 
 ## Preprints
 
 * Lien Bosmans, Jari Peeperkorn, Alexandre Goossens, Giovanni Lugaresi, Johannes De Smedt, Jochen De Weerdt, "Dynamic and Scalable Data Preparation for Object-Centric Process Mining", [https://arxiv.org/abs/2410.00596](https://arxiv.org/abs/2410.00596)
 * Dirk Fahland, Marco Montali, Julian Lebherz, Wil M.P. van der Aalst, Maarten van Asseldonk, Peter Blank, Lien Bosmans, Marcus Brenscheidt, Claudio di Ciccio, Andrea Delgado, Daniel Calegari, Jari Peeperkorn, Eric Verbeek, Lotte Vugs, Moe Thandar Wynn, "Towards a Simple and Extensible Standard for Object-Centric Event Data (OCED) -- Core Model, Design Space, and Lessons Learned", [https://arxiv.org/abs/2410.14495](https://arxiv.org/abs/2410.14495)
+
+
+## Posters
+
+* Jari Peeperkorn, Romain Dupuis, Giovanni Lapenta, "Forecasting geomagnetic storms using long short-term memory neural networks", European Space Weather Week (ESWW) 2019, Liege, Belgium
 
 ## Doctoral Booklet
 

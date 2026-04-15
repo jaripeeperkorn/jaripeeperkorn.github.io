@@ -5,7 +5,7 @@ type: "Talk"
 permalink: /talks/kbc
 venue: "KBC - Knowledge Sharing Session"
 date: 2021-05-17
-location: "Leuven"
+location: "Leuven, Belgium"
 
 ---
 
