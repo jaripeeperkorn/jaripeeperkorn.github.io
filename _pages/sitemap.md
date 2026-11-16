@@ -3,35 +3,44 @@ layout: archive
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
+description: "Find research topics, publications, teaching, talks, and Jari Peeperkorn's CV."
 ---
 
-{% include base_path %}
+## Main pages
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+* [Home]({{ '/' | relative_url }})
+* [Research]({{ '/research/' | relative_url }})
+* [Publications]({{ '/publications/' | relative_url }})
+* [Teaching]({{ '/teaching/' | relative_url }})
+* [Talks and presentations]({{ '/talks/' | relative_url }})
+* [Talk map]({{ '/talkmap.html' | relative_url }})
+* [CV]({{ '/cv/' | relative_url }}) &middot; [Full CV (PDF)]({{ '/files/CV.pdf' | relative_url }})
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
+## Research topics
+
+* [ML-driven Conformance Checking]({{ '/conformance/' | relative_url }})
+* [Neurosymbolic]({{ '/neurosymbolic/' | relative_url }})
+* [Trace Clustering]({{ '/clustering/' | relative_url }})
+* [Process Model Forecasting]({{ '/process-model-forecasting/' | relative_url }})
+* [Object-centric data preparation]({{ '/stackt/' | relative_url }})
+* [Data Quality]({{ '/data-quality/' | relative_url }})
+* [Generalization and Process Understanding]({{ '/generalization/' | relative_url }})
+* [LLM adaptation in PPM]({{ '/llm-ppm/' | relative_url }})
+* [XAI & Robustness in PPM]({{ '/xai-robustness/' | relative_url }})
+* [Fairness in PPM]({{ '/fairness/' | relative_url }})
+* [Learning from incomplete labels in PPM]({{ '/PU/' | relative_url }})
+* [Remaining time with stochastic models]({{ '/remaining-time/' | relative_url }})
+* [Space-Weather Forecasting]({{ '/space-weather/' | relative_url }})
+
+## Teaching
+
+{% for course in site.teaching %}
+* [{{ course.title }}]({{ course.url | relative_url }})
 {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+## Talks and presentations
 
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
+{% assign ordered_talks = site.talks | sort: 'date' | reverse %}
+{% for talk in ordered_talks %}
+* [{{ talk.title }}]({{ talk.url | relative_url }}) &middot; {{ talk.date | date: "%Y" }}
 {% endfor %}

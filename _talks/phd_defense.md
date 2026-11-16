@@ -6,9 +6,16 @@ permalink: /talks/phd_defense
 venue: "KU Leuven"
 date: 2023-10-19
 location: "Belgium"
-
+excerpt: "The public defence of my PhD at KU Leuven."
+recording_url: "https://vimeo.com/929900755"
 ---
 
-Presentation of the public defense of my PhD.
+The recording of my public PhD defence at KU Leuven.
 
-<iframe src="https://player.vimeo.com/video/929900755?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Public_Defense_Jari_Peeperkorn"></iframe>
+<div class="video-embed">
+  <iframe src="https://player.vimeo.com/video/929900755?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Public PhD defence of Jari Peeperkorn" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+[Watch on Vimeo](https://vimeo.com/929900755)
+
+[Generalization and Process Understanding](/generalization/) | [All talks](/talks/)

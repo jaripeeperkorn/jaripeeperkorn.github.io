@@ -3,10 +3,40 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+page_class: teaching-page
 ---
 
-{% include base_path %}
+<p class="content-intro">Teaching and supervision in business analytics, machine learning, and process mining at KU Leuven.</p>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<nav class="section-nav" aria-label="Teaching sections">
+  <a href="#courses">Courses</a>
+  <a href="#supervision">Supervision</a>
+  <a href="#other-teaching">Other teaching</a>
+</nav>
+
+<h2 id="courses">Course teaching</h2>
+<div class="entry-list">
+  {% assign courses = site.teaching | sort: "date" | reverse %}
+  {% for post in courses %}
+  <article class="entry-card">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <p class="entry-meta">{{ post.venue | escape }} · {{ post.type | escape }}</p>
+    {% if post.academic_years %}<p class="entry-meta">Academic years {{ post.academic_years | escape }}</p>{% endif %}
+    <div>{{ post.excerpt | markdownify }}</div>
+    <p class="action-links"><a href="{{ post.url | relative_url }}">Course details</a></p>
+  </article>
+  {% endfor %}
+</div>
+
+<h2 id="supervision">Student supervision</h2>
+<p>I supervise master's theses in business engineering, business information systems engineering, information management, and artificial intelligence. Topics range from process mining to natural language processing, sometimes in collaboration with external partners.</p>
+<p>I have co-supervised PhD candidate Yongbo Yu since 2023 and served as a PhD jury member for Brecht Wuyts from 2022 to 2026.</p>
+
+<h2 id="other-teaching">Teaching assistance and guest lectures</h2>
+<ul>
+  <li>Teaching assistant for <strong>Business Analysis / Business Analyse</strong> at KU Leuven, 2019–2023.</li>
+  <li>Teaching assistant for <strong>Introduction to Analytics</strong> at KU Leuven, 2022–2023.</li>
+  <li>Guest sessions at universities and companies, including <a href="{{ '/talks/guest_lecture_aachen' | relative_url }}">Advanced Process Mining at RWTH Aachen</a>.</li>
+</ul>
+
+<p class="action-links"><a href="{{ '/talks/' | relative_url }}">Talks and teaching materials</a><a href="{{ '/cv/' | relative_url }}">Academic CV</a></p>

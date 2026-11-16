@@ -11,7 +11,8 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="site-shell {{ page.page_class | escape }}">
+    <a class="skip-link" href="#main">Skip to content</a>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

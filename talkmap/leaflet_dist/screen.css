@@ -1,30 +1,49 @@
 
-	#map {
-		width: 800px; 
-		height: 600px; 
-		border: 1px solid #ccc;
-	}
+html,
+body,
+#map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 
-	#progress {
-	    display: none;
-	    position: absolute;
-	    z-index: 1000;
-	    left: 400px;
-	    top: 300px;
-	    width: 200px;
-	    height: 20px;
-	    margin-top: -20px;
-	    margin-left: -100px;
-	    background-color: #fff;
-	    background-color: rgba(255, 255, 255, 0.7);
-	    border-radius: 4px;
-	    padding: 2px;
-	}
+body {
+  color: #203241;
+  background: #eaf0f2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
-	#progress-bar {
-	    width: 0;
-	    height: 100%;
-	    background-color: #76A6FC;
-	    border-radius: 4px;
-	}
-        
+.leaflet-container {
+  font: inherit;
+  font-size: 14px;
+}
+
+.map-talk-title {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content .map-talk-meta {
+  margin: 0.6em 0;
+  color: #536573;
+  font-size: 12px;
+}
+
+.leaflet-popup-content a {
+  color: #176b7a;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.leaflet-control-attribution {
+  max-width: 90vw;
+  font-size: 10px;
+}
+
+.map-fallback {
+  position: absolute;
+  inset: 1rem;
+  padding: 1rem;
+  background: #fff;
+}

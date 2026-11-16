@@ -3,15 +3,36 @@ layout: archive
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
+page_class: talks-page
 ---
 
-<p>Here is an incomplete list of all the talks I have given.</p>
+<p class="content-intro">Conference presentations, invited talks, and guest lectures. Slides and recordings are linked where available.</p>
 
-{% for post in site.talks reversed %}
+<nav class="section-nav" aria-label="Talks sections">
+  <a href="#presentations">Presentations</a>
+  {% if site.talkmap_link %}<a href="#talk-map">Talk map</a>{% endif %}
+</nav>
+
+<section id="presentations" aria-label="Presentations by year">
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% assign current_year = "" %}
+{% for post in talks %}
+  {% assign talk_year = post.date | date: "%Y" %}
+  {% if talk_year != current_year %}
+    {% unless forloop.first %}</div>{% endunless %}
+    <h2 id="talks-{{ talk_year }}">{{ talk_year }}</h2>
+    <div class="entry-list">
+    {% assign current_year = talk_year %}
+  {% endif %}
   {% include archive-single-talk.html %}
+  {% if forloop.last %}</div>{% endif %}
 {% endfor %}
+</section>
 
-{% if site.talkmap_link == true %}
-  <h2>Talk map</h2>
-  <iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+{% if site.talkmap_link %}
+<section id="talk-map" aria-labelledby="talk-map-title">
+  <h2 id="talk-map-title">Talk map</h2>
+  <p>Explore the event locations, including conferences held online.</p>
+  <div class="talk-map"><iframe src="{{ '/talkmap/map.html' | relative_url }}" title="Map of conference and talk locations" loading="lazy"></iframe></div>
+</section>
 {% endif %}

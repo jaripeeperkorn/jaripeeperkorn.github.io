@@ -3,55 +3,69 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+page_class: cv-page
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-[Download full CV (PDF)]({{ base_path }}/files/CV.pdf)
+An overview of my academic experience, teaching, and service.
+{: .content-intro}
 
-See the [publications page]({{ base_path }}/publications/) for the full list of papers.
+<div class="action-links">
+  <a class="btn btn--primary" href="{{ base_path }}/files/CV.pdf">Download full CV (PDF)</a>
+  <a href="{{ base_path }}/publications/">View publications</a>
+</div>
 
-## Education
-
-* Ph.D. in Business Economics, KU Leuven, 2019–2023
-* M.Sc. in Astronomy and Astrophysics, cum laude, KU Leuven, 2016–2019
-* B.Sc. in Physics, KU Leuven, 2013–2017
+<nav class="section-nav" aria-label="CV sections">
+  <a href="#work-experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#awards-and-prizes">Awards</a>
+  <a href="#awarded-grants">Funding</a>
+  <a href="#teaching-and-supervision">Teaching</a>
+  <a href="#academic-service">Service</a>
+</nav>
 
 ## Work experience
 
-* 2024–2027: FWO Postdoctoral Researcher
+* **FWO Postdoctoral Researcher** · 2024–2027
   * Host: KU Leuven, Belgium
   * Junior postdoctoral fellowship on Robust Multi-Modal Prediction in Business Processes
 
-* 2023–2024: Postdoctoral Researcher
+* **Postdoctoral Researcher** · 2023–2024
   * KU Leuven
   * Research on process model forecasting, process mining, and machine learning
   * Supervisors: Johannes De Smedt and Jochen De Weerdt
 
-* 2019–2023: PhD Researcher
+* **PhD Researcher** · 2019–2023
   * KU Leuven
   * Dissertation: Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
   * Supervisors: Jochen De Weerdt and Seppe vanden Broucke
 
-## Awards and Prizes
+## Education
 
-* 2026: Co-author of the best paper at the 30th International Conference on Enterprise Design, Operations, and Computing (EDOC), Enschede
+* **Ph.D. in Business Economics**, KU Leuven, 2019–2023
+* **M.Sc. in Astronomy and Astrophysics**, cum laude, KU Leuven, 2016–2019
+* **B.Sc. in Physics**, KU Leuven, 2013–2017
+
+## Awards and prizes
+
+* **2026** · Co-author of the best paper at the 30th International Conference on Enterprise Design, Operations, and Computing (EDOC), Enschede
   * "LIQUID: Linking Data Quality Issues to Deviations in IoT-Enhanced Process Mining", with Christian Imenkamp, Yannis Bertrand, Lukas Malburg, Andrea Maldonado, Pascal Schiessle, and Agnes Koschmider
 
-* 2024: Co-author of the best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Copenhagen
+* **2024** · Co-author of the best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Copenhagen
   * "Multivariate Approaches for Process Model Forecasting", with Yongbo Yu, Johannes De Smedt, and Jochen De Weerdt
 
-* 2021: Best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Eindhoven
+* **2021** · Best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Eindhoven
   * "Can deep neural networks learn process model structure? An assessment framework and analysis", with Seppe vanden Broucke and Jochen De Weerdt
 
-* 2020: Best PhD team at the KU Leuven Datathon
+* **2020** · Best PhD team at the KU Leuven Datathon
   * Our Clean Air Route Finder identified routes through Leuven with the lowest exposure to particulate matter.
 
-## Awarded Grants
+## Awarded grants
 
-* 2024: FWO Junior Postdoctoral Fellowship
+* **2024** · FWO Junior Postdoctoral Fellowship
   * Three years of funding, starting in October 2024, for "Robust Multi-Modal Prediction in Business Processes".
 
 ## Teaching and supervision
@@ -85,4 +99,8 @@ See the [publications page]({{ base_path }}/publications/) for the full list of 
 
 ## Scientific profiles
 
-[ORCID](https://orcid.org/0000-0003-4644-4881) · [Google Scholar](https://scholar.google.be/citations?user=TpPhU2AAAAAJ) · [DBLP](https://dblp.uni-trier.de/pid/274/3341.html)
+<div class="action-links">
+  <a href="https://orcid.org/0000-0003-4644-4881">ORCID</a>
+  <a href="https://scholar.google.be/citations?user=TpPhU2AAAAAJ">Google Scholar</a>
+  <a href="https://dblp.uni-trier.de/pid/274/3341.html">DBLP</a>
+</div>

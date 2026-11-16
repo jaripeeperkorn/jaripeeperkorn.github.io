@@ -21,10 +21,10 @@ repository               : "jaripeeperkorn/jaripeeperkorn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-web.jpg"
   name             : "Jari Peeperkorn"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Researcher"
+  bio              : "FWO Postdoctoral Researcher"
   location         : "Belgium"
   employer         : "KU Leuven"
   uri              : # URL
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "jari-peeperkorn"
+  linkedin         : "jari-peeperkorn-a38ab3133"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "@Jari_i"  # Replace this with your X / Twitter handle
+  twitter          : "Jari_i"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -107,7 +107,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false
   google:
     tracking_id          :
 
@@ -147,6 +147,18 @@ include:
   - _pages
   - files
 exclude:
+  - _posts
+  - _portfolio
+  - _pages/archive-layout-with-content.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/portfolio.html
+  - _pages/year-archive.html
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/collection-archive.html
+  - _pages/page-archive.html
+  - _pages/terms.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -224,7 +236,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -240,7 +252,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -249,7 +261,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -258,7 +270,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -267,7 +279,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
@@ -280,7 +292,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Brussels
 
 
 # Plugins

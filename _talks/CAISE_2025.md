@@ -6,8 +6,13 @@ permalink: /talks/CAISE_2025
 venue: "CAiSE conference (2025)"
 date: 2025-06-18
 location: "Vienna, Austria"
-
+excerpt: "Making process predictions fairer across groups."
+slides_url: "/files/2025_Caise.pdf"
+slides_format: "PDF"
 ---
 
-The slides of my presentation at the CAiSE conference 2025.
-The slides of this talk can be found [here](https://jaripeeperkorn.github.io/files/2025_Caise.pdf)
+A presentation at CAiSE 2025 on group fairness through independence in predictive process monitoring.
+
+[Download slides (PDF)](/files/2025_Caise.pdf){: .btn}
+
+[Fairness in PPM](/fairness/) | [All talks](/talks/)

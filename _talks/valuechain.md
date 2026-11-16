@@ -6,11 +6,16 @@ permalink: /talks/valuechain
 venue: "Value Chain Virtual Supply Chain Innovations"
 date: 2020-11-26
 location: "Belgium"
-
+excerpt: "Een introductie tot process mining en de toepassingen ervan in bedrijven (Nederlands)."
+recording_url: "https://vimeo.com/482997530"
 ---
 
-Process Mining: hoe haal ik zo veel mogelijk uit mijn proces?
+Een Nederlandstalige introductie tot process mining: processen ontdekken, monitoren en verbeteren op basis van eventlogs. Met praktijkvoorbeelden en een blik op de combinatie van process mining en machine learning.
 
-Process Mining is een onderzoeksgebied dat zich bezig houdt met de analyse van business processen op basis van event logs. Na ruim twee decenia aan onderzoek heeft Process Mining ondertussen zijn intrede gemaakt bij veel bedrijven. Toepassingen zijn bijvoorbeeld het ontdekken van processen aan de hand van as-is event data, het continu monitoren van processen of auditing. In deze presentatie zal Jari Peeperkorn ons uitleggen wat Process Mining juist inhoud en de mogelijkheden voor verschillende bedrijven bespreken aan de hand van voorbeelden. Tot slot licht hij een tipje van de sluier op over wat nu nog wordt onderzocht maar de komende jaren zeker in praktijk zal worden toegepast. Denk bijvoorbeeld aan de integratie van Machine Learning en Process Mining.
+<div class="video-embed">
+  <iframe src="https://player.vimeo.com/video/482997530" title="Process Mining: hoe haal ik zo veel mogelijk uit mijn proces?" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<iframe src="https://player.vimeo.com/video/482997530" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+[Watch on Vimeo](https://vimeo.com/482997530)
+
+[Research topics](/research/) | [All talks](/talks/)
