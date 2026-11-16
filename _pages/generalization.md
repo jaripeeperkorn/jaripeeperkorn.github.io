@@ -31,14 +31,6 @@ We introduce an evaluation framework for testing whether neural networks learn p
 
 [Paper](https://doi.org/10.1007/978-3-030-98581-3_10)
 
-## Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
-
-*Doctoral booklet, KU Leuven, 2023.*
-
-My dissertation brings together machine-learning methods for conformance checking and ways to evaluate and improve generalization in predictive process monitoring.
-
-[Publication details](/publications/#doctoral-booklet)
-
 ![Experimental setup for assessing whether neural networks learn process structure](/images/gen.PNG)
 
 For work on incorporating process knowledge into model training, see [Neurosymbolic](/neurosymbolic/).
