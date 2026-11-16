@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /remaining-time/
-title: "Remaining Time Prediction"
+title: "Remaining time with stochastic models"
 author_profile: true
 ---
 

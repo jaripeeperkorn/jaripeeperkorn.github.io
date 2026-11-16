@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /conformance/
-title: "ML-driven conformance checking"
+title: "ML-driven Conformance Checking"
 author_profile: true
 ---
 

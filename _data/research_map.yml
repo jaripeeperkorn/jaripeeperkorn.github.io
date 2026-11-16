@@ -1,6 +1,7 @@
 hubs:
   - id: ml
     label: Machine Learning
+    label_lines: ["Machine", "Learning"]
     title: Machine Learning
     description: Learning patterns from past examples to make predictions about new data.
     color: teal
@@ -8,6 +9,7 @@ hubs:
     y: 43.75
   - id: pm
     label: Process Mining
+    label_lines: ["Process", "Mining"]
     title: Process Mining
     description: Using event records to understand how work happens, find bottlenecks, and compare practice with a process model.
     color: blue
@@ -15,15 +17,17 @@ hubs:
     y: 43.75
   - id: ppm
     label: Predictive Process Monitoring
+    label_lines: ["Predictive", "Process", "Monitoring"]
     title: Predictive Process Monitoring
     description: Using the events in an ongoing case to predict its next activity, remaining duration, or outcome.
     color: amber
     x: 50
-    y: 68.75
+    y: 63.5
 
 topics:
   - id: space-weather
     label: Space weather
+    label_lines: ["Space", "weather"]
     title: Space-weather forecasting
     description: Using neural networks to anticipate geomagnetic storms.
     url: /space-weather/
@@ -32,6 +36,7 @@ topics:
     y: 22.5
   - id: forecasting
     label: Process model forecasting
+    label_lines: ["Process model", "forecasting"]
     title: Process model forecasting
     description: Predicting how an entire process will evolve over time.
     url: /process-model-forecasting/
@@ -39,15 +44,17 @@ topics:
     x: 31
     y: 14.375
   - id: conformance
-    label: Conformance checking
-    title: ML-driven conformance checking
+    label: ML-driven Conformance Checking
+    label_lines: ["ML-driven", "Conformance", "Checking"]
+    title: ML-driven Conformance Checking
     description: Comparing observed behaviour with a process model using machine learning.
     url: /conformance/
     groups: [ml, pm]
     x: 52
-    y: 17.5
+    y: 14
   - id: clustering
     label: Trace clustering
+    label_lines: ["Trace", "clustering"]
     title: Trace clustering
     description: Grouping similar process executions to make complex behaviour easier to understand.
     url: /clustering/
@@ -56,6 +63,7 @@ topics:
     y: 13.75
   - id: object-centric
     label: Object-centric data
+    label_lines: ["Object-centric", "data"]
     title: Object-centric data preparation
     description: Organizing events involving connected objects, such as orders, items, and deliveries.
     url: /stackt/
@@ -64,6 +72,7 @@ topics:
     y: 22.5
   - id: data-quality
     label: Data quality
+    label_lines: ["Data", "quality"]
     title: Data quality
     description: Understanding how errors in event and sensor data affect process-mining results.
     url: /data-quality/
@@ -71,50 +80,65 @@ topics:
     x: 89
     y: 52.5
   - id: remaining-time
-    label: Remaining time
-    title: Remaining-time prediction
-    description: Estimating how long an ongoing case will take to finish.
+    label: Remaining time with stochastic models
+    label_lines: ["Remaining time", "with stochastic", "models"]
+    title: Remaining time with stochastic models
+    description: Using stochastic process models to predict how long an ongoing case will take to finish.
     url: /remaining-time/
     groups: [ml, pm, ppm]
     x: 89.5
     y: 81.875
   - id: fairness
-    label: Fairness
-    title: Fairness in predictive process monitoring
+    label: Fairness in PPM
+    label_lines: ["Fairness", "in PPM"]
+    title: Fairness in PPM
     description: Studying and reducing differences in predictions between sensitive groups.
     url: /fairness/
     groups: [ml, pm, ppm]
     x: 72
-    y: 90
+    y: 88
   - id: incomplete-labels
-    label: Incomplete labels
-    title: Learning from incomplete labels
+    label: Incomplete labels in PPM
+    label_lines: ["Incomplete", "labels in PPM"]
+    title: Learning from incomplete labels in PPM
     description: Predicting outcomes when only some historical cases have a known label.
     url: /PU/
     groups: [ml, pm, ppm]
     x: 50
-    y: 90
+    y: 88
   - id: xai-robustness
-    label: XAI & robustness
-    title: Explainability and robustness in predictive process monitoring
+    label: XAI & Robustness in PPM
+    label_lines: ["XAI &", "Robustness", "in PPM"]
+    title: XAI & Robustness in PPM
     description: Understanding predictions and testing how they respond to changes in the input.
     url: /xai-robustness/
     groups: [ml, pm, ppm]
     x: 28
-    y: 90
+    y: 88
   - id: llm
-    label: LLM adaptation
-    title: LLM adaptation for predictive process monitoring
+    label: LLM adaptation in PPM
+    label_lines: ["LLM adaptation", "in PPM"]
+    title: LLM adaptation in PPM
     description: Adapting large language models to process data and prediction tasks.
     url: /llm-ppm/
     groups: [ml, pm, ppm]
     x: 10.5
     y: 80.625
   - id: generalization
-    label: Generalization & validation
-    title: Generalization and validation
+    label: Generalization and Process Understanding
+    label_lines: ["Generalization", "and Process", "Understanding"]
+    title: Generalization and Process Understanding
     description: Testing whether predictive models learn process behaviour and handle unseen cases.
     url: /generalization/
     groups: [ml, pm, ppm]
     x: 10.5
     y: 52.5
+  - id: neurosymbolic
+    label: Neurosymbolic
+    label_lines: ["Neurosymbolic"]
+    title: Neurosymbolic
+    description: Combining neural learning with explicit process knowledge.
+    url: /neurosymbolic/
+    groups: [ml, pm, ppm]
+    x: 50
+    y: 37.5

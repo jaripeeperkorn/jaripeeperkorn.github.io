@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /xai-robustness/
-title: "Explainability and Robustness in Predictive Process Monitoring"
+title: "XAI & Robustness in PPM"
 author_profile: true
 ---
 

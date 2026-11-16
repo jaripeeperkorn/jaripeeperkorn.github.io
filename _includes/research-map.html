@@ -2,7 +2,7 @@
   <div class="research-map__header">
     <div>
       <h2 id="research-map-title">Explore my research</h2>
-      <p>Three fields. Twelve connected topics.</p>
+      <p>Three fields. {{ site.data.research_map.topics | size }} connected topics.</p>
     </div>
     <button class="research-map__motion" type="button" data-motion-toggle aria-pressed="false" hidden>Pause motion</button>
   </div>
@@ -17,7 +17,7 @@
         data-color="{{ hub.color }}" style="--x: {{ hub.x }}%; --y: {{ hub.y }}%;"
         aria-label="Highlight topics connected to {{ hub.title | escape }}" aria-pressed="false">
         <span class="research-map__eyebrow">Field</span>
-        <span class="research-map__label">{{ hub.label | escape }}</span>
+        <span class="research-map__label">{% for line in hub.label_lines %}<span class="research-map__label-line">{{ line | escape }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}</span>
       </button>
       {% endfor %}
       {% for topic in site.data.research_map.topics %}
@@ -27,7 +27,7 @@
         data-title="{{ topic.title | escape }}" data-description="{{ topic.description | escape }}"
         data-color="neutral" style="--x: {{ topic.x }}%; --y: {{ topic.y }}%;"
         aria-label="{{ topic.title | escape }} — {{ topic.description | escape }} Connected to {{ connected_fields | strip | escape }}.">
-        <span class="research-map__label">{{ topic.label | escape }}</span>
+        <span class="research-map__label">{% for line in topic.label_lines %}<span class="research-map__label-line">{{ line | escape }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}</span>
       </a>
       {% endfor %}
     </div>

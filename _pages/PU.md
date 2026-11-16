@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /PU/
-title: "Learning from incomplete labels"
+title: "Learning from incomplete labels in PPM"
 author_profile: true
 ---
 

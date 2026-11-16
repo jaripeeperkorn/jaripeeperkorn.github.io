@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /fairness/
-title: "Fairness in Predictive Process Monitoring"
+title: "Fairness in PPM"
 author_profile: true
 ---
 

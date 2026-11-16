@@ -1,19 +1,11 @@
 ---
 layout: archive
 permalink: /generalization/
-title: "Generalization and validation in PPM"
+title: "Generalization and Process Understanding"
 author_profile: true
 ---
 
-A useful prediction model should handle valid process behaviour it has not seen before. I study how to test this ability, choose better training settings, and teach models the structure of a process.
-
-## DIFF-ERO: A Conformance-Aware Loss for Deep Learning in Process Mining
-
-*BPM 2026; proceedings published with a 2027 citation year.*
-
-We introduce a training objective that rewards agreement with process structure alongside prediction accuracy. This helps neural networks learn how activities fit together across a process.
-
-[Paper](https://doi.org/10.1007/978-3-032-37777-7_7) · [Code](https://github.com/JohannesDeSmedt/differentiable-er)
+A useful prediction model should handle valid process behaviour it has not seen before. I study whether models learn the underlying process, how to test this understanding, and how to choose better training settings.
 
 ## Validation Set Sampling Strategies for Predictive Process Monitoring
 
@@ -48,5 +40,7 @@ My dissertation brings together machine-learning methods for conformance checkin
 [Publication details](/publications/#doctoral-booklet)
 
 ![Experimental setup for assessing whether neural networks learn process structure](/images/gen.PNG)
+
+For work on incorporating process knowledge into model training, see [Neurosymbolic](/neurosymbolic/).
 
 [All research topics](/research/)

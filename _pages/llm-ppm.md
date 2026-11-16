@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /llm-ppm/
-title: "LLM Adaptation for Predictive Process Monitoring"
+title: "LLM adaptation in PPM"
 author_profile: true
 ---
 

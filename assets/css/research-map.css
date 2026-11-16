@@ -28,7 +28,7 @@
   aspect-ratio: 5 / 4;
   container-type: inline-size;
   isolation: isolate;
-  background-image: radial-gradient(ellipse at 29% 44%, #c8e8e849, transparent 33%), radial-gradient(ellipse at 71% 44%, #d9dffb66, transparent 33%), radial-gradient(ellipse at 50% 69%, #f8e7c76b, transparent 32%), radial-gradient(#a6b9c133 .8px, transparent .8px);
+  background-image: radial-gradient(ellipse at 29% 44%, #c8e8e849, transparent 33%), radial-gradient(ellipse at 71% 44%, #d9dffb66, transparent 33%), radial-gradient(ellipse at 50% 63.5%, #f8e7c76b, transparent 32%), radial-gradient(#a6b9c133 .8px, transparent .8px);
   background-size: auto, auto, auto, 22px 22px;
 }
 .research-map__edges { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
@@ -47,9 +47,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: clamp(88px, 10.6cqw, 116px);
-  height: clamp(88px, 10.6cqw, 116px);
-  padding: 11px;
+  width: clamp(110px, 13cqw, 140px);
+  height: clamp(110px, 13cqw, 140px);
+  padding: 10px;
   border: 1px solid #cbdbe2;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -57,7 +57,7 @@
   color: var(--map-ink);
   box-shadow: 0 5px 15px #274b5e0c, inset 0 1px 1px #fff;
   font: inherit;
-  font-size: clamp(11px, 1.35cqw, 14px);
+  font-size: clamp(11px, 1.2cqw, 13px);
   font-weight: 600;
   line-height: 1.25;
   text-align: center;
@@ -69,7 +69,8 @@
 }
 .research-map .research-map__node:hover { text-decoration: none; color: var(--map-ink); }
 .research-map__node span { transition: none; }
-.research-map__label { display: block; max-width: 100%; overflow-wrap: anywhere; }
+.research-map__label { display: block; max-width: 100%; overflow-wrap: normal; word-break: normal; hyphens: none; }
+.research-map__label-line { display: block; white-space: nowrap; }
 .research-map .research-map__node--hub {
   width: clamp(130px, 16cqw, 172px);
   height: clamp(130px, 16cqw, 172px);
