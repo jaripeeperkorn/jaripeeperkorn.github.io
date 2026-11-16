@@ -11,8 +11,6 @@ I am a **postdoctoral researcher** at LIRIS, at the faculty of Economics and Bus
 
 At the moment, I am working on a **FWO** junior postdoctoral fellowship on robust multimodal prediction in business processes (2024–2027), with prof. Johannes De Smedt and prof. Jochen De Weerdt.
 
-In 2027, I will join **Open Universiteit** in the Netherlands as an **Assistant Professor** in the academic unit of Information Science.
-
 Other projects I have been involved in include among others evaluation metrics of predictive process monitoring solutions, ML-driven conformance checking of process models, process model forecasting, and adversarial attacks for robustness checks in predictive process monitoring.
 
 I successfully defended my PhD dissertation on "Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining" in 2023.

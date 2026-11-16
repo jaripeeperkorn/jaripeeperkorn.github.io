@@ -21,10 +21,6 @@ See the [publications page]({{ base_path }}/publications/) for the full list of 
 
 ## Work experience
 
-* 2027 onward: Incoming Assistant Professor
-  * Open Universiteit, the Netherlands
-  * Academic unit: Information Science
-
 * 2024–2027: FWO Postdoctoral Researcher
   * Host: KU Leuven, Belgium
   * Junior postdoctoral fellowship on Robust Multi-Modal Prediction in Business Processes

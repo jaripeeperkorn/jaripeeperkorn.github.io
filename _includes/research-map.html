@@ -2,11 +2,10 @@
   <div class="research-map__header">
     <div>
       <h2 id="research-map-title">Explore my research</h2>
-      <p>Three fields. {{ site.data.research_map.topics | size }} connected topics.</p>
     </div>
     <button class="research-map__motion" type="button" data-motion-toggle aria-pressed="false" hidden>Pause motion</button>
   </div>
-  <p class="research-map__hint">Hover or focus to explore · Select a topic to read more<span class="research-map__mobile-hint"> · Scroll sideways to see the full map</span></p>
+  <p class="research-map__hint"><span class="research-map__desktop-hint">Hover or focus to explore · Select a topic to read more</span><span class="research-map__mobile-hint">Tap a field to highlight its topics. Tap a topic to read more.</span></p>
   <div class="research-map__scroll">
     <div class="research-map__canvas" data-map-canvas>
       <svg class="research-map__edges" data-map-edges aria-hidden="true" focusable="false"></svg>
@@ -28,12 +27,13 @@
         data-color="neutral" style="--x: {{ topic.x }}%; --y: {{ topic.y }}%;"
         aria-label="{{ topic.title | escape }} — {{ topic.description | escape }} Connected to {{ connected_fields | strip | escape }}.">
         <span class="research-map__label">{% for line in topic.label_lines %}<span class="research-map__label-line">{{ line | escape }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}</span>
+        <span class="research-map__groups" aria-hidden="true">{% for group in topic.groups %}<span class="research-map__group research-map__group--{{ group }}">{{ group | upcase }}</span>{% endfor %}</span>
       </a>
       {% endfor %}
     </div>
   </div>
   <div class="research-map__detail" aria-live="polite" aria-atomic="true">
-    <strong data-detail-title>Follow a connection</strong>
-    <p data-detail-description>Choose a topic to read about the research. Select a large bubble to highlight its connections.</p>
+    <strong data-detail-title>Explore the connections</strong>
+    <p data-detail-description>Choose a topic to read about the research. Select a field to highlight its connections.</p>
   </div>
 </section>

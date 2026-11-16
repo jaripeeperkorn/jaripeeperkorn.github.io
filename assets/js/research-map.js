@@ -19,6 +19,7 @@
   var previousTime = null;
   var width = 0;
   var height = 0;
+  var compact = false;
   var hovered = null;
   var focused = null;
   var selected = null;
@@ -73,6 +74,7 @@
   }
 
   function draw() {
+    if (compact) return;
     nodes.forEach(function (node) {
       // Deterministic, small movements keep every label readable and links easy to hit.
       var amplitude = reduceMotion.matches ? 0 : node.hub ? 3 : 5;
@@ -95,15 +97,18 @@
   }
 
   function measure() {
+    compact = window.getComputedStyle(canvas).getPropertyValue('--map-compact').trim() === '1';
+    toggle.hidden = compact;
     width = canvas.clientWidth;
     height = canvas.clientHeight;
     svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
     nodes.forEach(function (node) { node.radius = node.element.offsetWidth / 2; });
     draw();
+    syncAnimation();
   }
 
   function shouldAnimate() {
-    return !userPaused && !reduceMotion.matches && visible && !document.hidden && !hovered && !focused;
+    return !compact && !userPaused && !reduceMotion.matches && visible && !document.hidden && !hovered && !focused;
   }
 
   function animate(time) {
@@ -150,8 +155,16 @@
     });
     if (node.hub) {
       node.element.addEventListener('click', function () {
-        selected = selected === node ? null : node;
+        if (selected === node) {
+          selected = null;
+          hovered = null;
+          focused = null;
+          node.element.blur();
+        } else {
+          selected = node;
+        }
         updateHighlight();
+        syncAnimation();
       });
     }
   });

@@ -8,8 +8,6 @@ research_map: true
 
 My research brings together process mining and machine learning to understand how processes work and make their predictions more reliable.
 
-{% include research-map.html %}
-
 ## The bigger picture
 
 **Process mining** uses digital records of activities, called event logs, to understand how work happens. It can reveal the steps in a process, identify bottlenecks, and check whether practice matches the intended way of working.
@@ -17,6 +15,8 @@ My research brings together process mining and machine learning to understand ho
 **Machine learning** learns patterns from examples to make predictions about new data. In my research, those examples are often past process executions, such as completed orders or applications.
 
 **Predictive process monitoring (PPM)** uses what has happened in an ongoing case to predict what comes next: its next activity, remaining duration, or eventual outcome. These predictions can help people decide when and how to intervene.
+
+{% include research-map.html %}
 
 <details class="research-topic-list" markdown="1">
 <summary>Browse all research topics as a list</summary>
@@ -45,9 +45,5 @@ My research brings together process mining and machine learning to understand ho
 * **[Space-weather forecasting](/space-weather/)** — Earlier work on predicting geomagnetic storms with neural networks.
 
 </details>
-
-## Earlier work
-
-Before focusing on process mining, I studied [machine learning for space-weather forecasting](/space-weather/).
 
 Full citations and publication statuses are available on the [publications page](/publications/).
