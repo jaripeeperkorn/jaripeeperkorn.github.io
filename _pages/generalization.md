@@ -1,27 +1,52 @@
 ---
 layout: archive
 permalink: /generalization/
-title: "Generalization and validation of predictive process monitoring models"
+title: "Generalization and validation in PPM"
 author_profile: true
 ---
 
+A useful prediction model should handle valid process behaviour it has not seen before. I study how to test this ability, choose better training settings, and teach models the structure of a process.
+
+## DIFF-ERO: A Conformance-Aware Loss for Deep Learning in Process Mining
+
+*BPM 2026; proceedings published with a 2027 citation year.*
+
+We introduce a training objective that rewards agreement with process structure alongside prediction accuracy. This helps neural networks learn how activities fit together across a process.
+
+[Paper](https://doi.org/10.1007/978-3-032-37777-7_7) · [Code](https://github.com/JohannesDeSmedt/differentiable-er)
+
+## Validation Set Sampling Strategies for Predictive Process Monitoring
+
+*Information Systems, 2024.*
+
+We select validation data by process variants, so model selection tests behaviour beyond the training examples. This improves how training settings and stopping points are chosen for generalization.
+
+[Paper](https://doi.org/10.1016/j.is.2023.102330) · [Code](https://github.com/jaripeeperkorn/ValidationSelection)
+
 ## Can recurrent neural networks learn process model structure?
 
-Various methods using machine and deep learning have been proposed to tackle different tasks in predictive process monitoring, forecasting for an ongoing case e.g. the most likely next event or suffix, its remaining time, or an outcome-related variable. Recurrent neural networks (RNNs), and more specifically long short-term memory nets (LSTMs), stand out in terms of popularity. In this work, we investigate the capabilities of such an LSTM to actually learn the underlying process model structure of an event log. We introduce an evaluation framework that combines variant-based resampling and custom metrics for fitness, precision and generalization. We evaluate 4 hypotheses concerning the learning capabilities of LSTMs, the effect of overfitting countermeasures, the level of incompleteness in the training set and the level of parallelism in the underlying process model. We confirm that LSTMs can struggle to learn process model structure, even with simplistic process data and in a very lenient setup. Taking the correct anti-overfitting measures can alleviate the problem. However these measures did not present themselves to be optimal when selecting hyperparameters purely on predicting accuracy. We also found that decreasing the amount of information seen by the LSTM during training, causes a sharp drop in generalization and precision scores. In our experiments, we could not identify a relationship between the extent of parallelism in the model and the generalization capability, but they do indicate that the process’ complexity might have impact.
+*Journal of Intelligent Information Systems, first published online in 2022.*
 
-[Repository](https://github.com/jaripeeperkorn/LSTM_Process_Model_Structure){: .btn}
+We investigate when recurrent neural networks learn the underlying process rather than reproduce familiar examples. The study examines overfitting, incomplete event logs, and different process structures.
 
-Experimental setup:
-![](/images/gen.PNG)
+[Paper](https://doi.org/10.1007/s10844-022-00765-x) · [Code](https://github.com/jaripeeperkorn/LSTM_Process_Model_Structure)
 
-## Validation set sampling
+## Can deep neural networks learn process model structure? An assessment framework and analysis
 
-Previous studies investigating the efficacy of long short-term memory (LSTM) recurrent neural networks in predictive process monitoring and their ability to capture the underlying process structure have raised concerns about their limited ability to generalize to unseen behavior. Event logs often fail to capture the full spectrum of behavior permitted by the underlying processes. To overcome these challenges, this study introduces innovative validation set sampling strategies based on control-flow variant-based resampling. These strategies have undergone extensive evaluation to assess their impact on hyperparameter selection and early stopping, resulting in notable enhancements to the generalization capabilities of trained LSTM models. In addition, this study expands the experimental framework to enable accurate interpretation of underlying process models and provide valuable insights. By conducting experiments with event logs representing process models of varying complexities, this research elucidates the effectiveness of the proposed validation strategies. Furthermore, the extended framework facilitates investigations into the influence of event log completeness on the learning quality of predictive process models. The novel validation set sampling strategies proposed in this study facilitate the development of more effective and reliable predictive process models, ultimately bolstering generalization capabilities and improving the understanding of underlying process dynamics.
+*ML4PM, ICPM 2021.*
 
-[Repository](https://github.com/jaripeeperkorn/ValidationSelection){: .btn}
+We introduce an evaluation framework for testing whether neural networks learn process behaviour, including unseen valid executions. Experiments on simple process models show why prediction accuracy alone gives an incomplete picture.
 
-## Publications
+[Paper](https://doi.org/10.1007/978-3-030-98581-3_10)
 
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Validation Set Sampling for Predictive Process Monitoring", Information Systems (2024), [https://doi.org/10.1016/j.is.2023.102330](https://doi.org/10.1016/j.is.2023.102330)
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can recurrent neural networks learn process model structure?",  Journal of Intelligent Information Systems (2022), [https://doi.org/10.1007/s10844-022-00765-x](https://doi.org/10.1007/s10844-022-00765-x)
-* Jari Peeperkorn, Seppe vanden Broucke, Jochen De Weerdt, "Can deep neural networks learn process model structure? An assessment framework and analysis", Process Mining Workshops (ML4PM), ICPM 2021, [https://doi.org/10.1007/978-3-030-98581-3_10](https://doi.org/10.1007/978-3-030-98581-3_10)
+## Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
+
+*Doctoral booklet, KU Leuven, 2023.*
+
+My dissertation brings together machine-learning methods for conformance checking and ways to evaluate and improve generalization in predictive process monitoring.
+
+[Publication details](/publications/#doctoral-booklet)
+
+![Experimental setup for assessing whether neural networks learn process structure](/images/gen.PNG)
+
+[All research topics](/research/)

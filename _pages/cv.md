@@ -9,42 +9,84 @@ redirect_from:
 
 {% include base_path %}
 
-[Download full CV here](https://jaripeeperkorn.github.io/files/CV.pdf)
+[Download full CV (PDF)]({{ base_path }}/files/CV.pdf)
+
+See the [publications page]({{ base_path }}/publications/) for the full list of papers.
 
 ## Education
 
-* Ph.D in Business Economics, KU Leuven, 2023 
-* M.S. in Astronomy & Astrophysics, KU Leuven, 2019
-* B.S. in Physics, KU Leuven, 2017
+* Ph.D. in Business Economics, KU Leuven, 2019–2023
+* M.Sc. in Astronomy and Astrophysics, cum laude, KU Leuven, 2016–2019
+* B.Sc. in Physics, KU Leuven, 2013–2017
 
 ## Work experience
 
-* 2024-...: FWO Postdoctoral Researcher
-  * Host: KU Leuven
-  * Project: Robust Multi-Modal Prediction in Business Processes  
+* 2027 onward: Incoming Assistant Professor
+  * Open Universiteit, the Netherlands
+  * Academic unit: Information Science
 
-* 2023-2024: Postdoctoral Researcher
-  * KU Leuven
-  * Process Model Forecasting
-  * Supervisor: Johannes De Smedt & Jochen De Weerdt
+* 2024–2027: FWO Postdoctoral Researcher
+  * Host: KU Leuven, Belgium
+  * Junior postdoctoral fellowship on Robust Multi-Modal Prediction in Business Processes
 
-* 2019-2023: PhD Researcher
+* 2023–2024: Postdoctoral Researcher
   * KU Leuven
-  * Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
-  * Supervisors: Jochen De Weerdt & Seppe vanden Broucke
+  * Research on process model forecasting, process mining, and machine learning
+  * Supervisors: Johannes De Smedt and Jochen De Weerdt
+
+* 2019–2023: PhD Researcher
+  * KU Leuven
+  * Dissertation: Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining
+  * Supervisors: Jochen De Weerdt and Seppe vanden Broucke
 
 ## Awards and Prizes
 
-* 2024: Co-author best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)  
-  * For the work titled ” Multivariate Approaches for Process Model Forecasting” by Yongbo Yu, Jari Peeperkorn, Johannes De Smedt, Jochen De Weerdt , 2024, Copenhagen
+* 2026: Co-author of the best paper at the 30th International Conference on Enterprise Design, Operations, and Computing (EDOC), Enschede
+  * "LIQUID: Linking Data Quality Issues to Deviations in IoT-Enhanced Process Mining", with Christian Imenkamp, Yannis Bertrand, Lukas Malburg, Andrea Maldonado, Pascal Schiessle, and Agnes Koschmider
 
-* 2021: Best Paper International Workshop on Leveraging Machine Learning in Process Mining (ML4PM)
-  * Won best paper together with Seppe vanden Broucke and Jochen De Weerdt for work titled ”Can deep neural networks learn process model structure? An assessment framework and analysis”, 2021, Eindhoven
+* 2024: Co-author of the best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Copenhagen
+  * "Multivariate Approaches for Process Model Forecasting", with Yongbo Yu, Johannes De Smedt, and Jochen De Weerdt
 
-* 2020: Winner best PhD team at KU Leuven Datathon 
-  * Our team won the prize for best PhD team at the datathon for our application: Clean Air Route Finder, which could be used to fidn the route between two places in Leuven on which you would breathe in the least particulate matter
+* 2021: Best paper at the International Workshop on Leveraging Machine Learning in Process Mining (ML4PM), Eindhoven
+  * "Can deep neural networks learn process model structure? An assessment framework and analysis", with Seppe vanden Broucke and Jochen De Weerdt
+
+* 2020: Best PhD team at the KU Leuven Datathon
+  * Our Clean Air Route Finder identified routes through Leuven with the lowest exposure to particulate matter.
 
 ## Awarded Grants
 
-* 2024: FWO grant Junior postdoctoral fellowship
-  * For the project ’Robust Multi-Modal Prediction in Business Processes’ I have received 3 years funding (starting in October 2024).
+* 2024: FWO Junior Postdoctoral Fellowship
+  * Three years of funding, starting in October 2024, for "Robust Multi-Modal Prediction in Business Processes".
+
+## Teaching and supervision
+
+* Principal teacher of [Business Analytics]({{ base_path }}/teaching/2024-BA/), a 6 ECTS course at KU Leuven
+  * Advanced Program on Artificial Intelligence in Business and Industry (Advanced Master and Postgraduate Certificate)
+  * Academic years 2023–2024, 2024–2025, and 2025–2026
+  * Topics include business applications of machine learning, cost-sensitive analytics, fraud analytics, business process management, causal machine learning, and managerial aspects.
+* Co-supervisor of PhD candidate Yongbo Yu (since 2023)
+* PhD jury member for Brecht Wuyts (2022–2026)
+* Supervisor of master's theses in business engineering, business information systems engineering, information management, and artificial intelligence
+  * Main promotor since 2023; daily supervisor from 2019 to 2023
+  * Topics range from process mining to natural language processing, including projects with external partners.
+* Teaching assistant at KU Leuven
+  * Business Analysis / Business Analyse (2019–2023)
+  * Introduction to Analytics (2022–2023)
+* Guest sessions at KU Leuven, other universities, and companies, at bachelor, master's, advanced master's, and professional levels
+
+## Academic service
+
+* Conference and workshop organization
+  * DEI Chair, BPM 2027 (upcoming)
+  * Co-organizer of the R2PM workshop, planned at ICPM 2027
+  * Publicity Chair, BPM 2026
+  * Session organizer at the European Conference on Operational Research
+  * Member of Technology and AI in Effective Management (TEAM), involved in organizing its first meet-up/conference in 2025
+* Program committee member for BPM, CAiSE, ICPM, and related workshops
+* Regular reviewer for Information Systems, Knowledge-Based Systems, Engineering Applications of Artificial Intelligence, Business & Information Systems Engineering, and Process Science
+* Member of Leuven.AI (2023–2027)
+* Member of the Permanent Educational Committee (POC/OC) for the Advanced Program on Artificial Intelligence in Business and Industry (2023–2026)
+
+## Scientific profiles
+
+[ORCID](https://orcid.org/0000-0003-4644-4881) · [Google Scholar](https://scholar.google.be/citations?user=TpPhU2AAAAAJ) · [DBLP](https://dblp.uni-trier.de/pid/274/3341.html)

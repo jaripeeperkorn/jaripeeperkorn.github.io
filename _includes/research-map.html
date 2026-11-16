@@ -1,0 +1,39 @@
+<section class="research-map" data-research-map aria-labelledby="research-map-title">
+  <div class="research-map__header">
+    <div>
+      <h2 id="research-map-title">Explore my research</h2>
+      <p>Three fields. Twelve connected topics.</p>
+    </div>
+    <button class="research-map__motion" type="button" data-motion-toggle aria-pressed="false" hidden>Pause motion</button>
+  </div>
+  <p class="research-map__hint">Hover or focus to explore · Select a topic to read more<span class="research-map__mobile-hint"> · Scroll sideways to see the full map</span></p>
+  <div class="research-map__scroll">
+    <div class="research-map__canvas" data-map-canvas>
+      <svg class="research-map__edges" data-map-edges aria-hidden="true" focusable="false"></svg>
+      {% for hub in site.data.research_map.hubs %}
+      <button class="research-map__node research-map__node--hub" type="button"
+        data-node="{{ hub.id }}" data-kind="hub" data-groups="{{ hub.id }}"
+        data-title="{{ hub.title | escape }}" data-description="{{ hub.description | escape }}"
+        data-color="{{ hub.color }}" style="--x: {{ hub.x }}%; --y: {{ hub.y }}%;"
+        aria-label="Highlight topics connected to {{ hub.title | escape }}" aria-pressed="false">
+        <span class="research-map__eyebrow">Field</span>
+        <span class="research-map__label">{{ hub.label | escape }}</span>
+      </button>
+      {% endfor %}
+      {% for topic in site.data.research_map.topics %}
+      {% capture connected_fields %}{% for group in topic.groups %}{% for hub in site.data.research_map.hubs %}{% if hub.id == group %}{{ hub.title }}{% endif %}{% endfor %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+      <a class="research-map__node research-map__node--topic" href="{{ topic.url | relative_url }}"
+        data-node="{{ topic.id }}" data-kind="topic" data-groups="{{ topic.groups | join: ',' }}"
+        data-title="{{ topic.title | escape }}" data-description="{{ topic.description | escape }}"
+        data-color="neutral" style="--x: {{ topic.x }}%; --y: {{ topic.y }}%;"
+        aria-label="{{ topic.title | escape }} — {{ topic.description | escape }} Connected to {{ connected_fields | strip | escape }}.">
+        <span class="research-map__label">{{ topic.label | escape }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="research-map__detail" aria-live="polite" aria-atomic="true">
+    <strong data-detail-title>Follow a connection</strong>
+    <p data-detail-description>Choose a topic to read about the research. Select a large bubble to highlight its connections.</p>
+  </div>
+</section>

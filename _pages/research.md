@@ -3,18 +3,50 @@ layout: archive
 permalink: /research/
 title: "Research"
 author_profile: true
+research_map: true
 ---
 
-[ML-driven Conformance Checking](/conformance){: .btn--custom}
+My research brings together process mining and machine learning to understand how processes work and make their predictions more reliable.
 
-[Generalization and Validation of Predictive Process Monitoring Models](/generalization){: .btn--custom}
+{% include research-map.html %}
 
-[Outcome-Oriented Predictive Process Monitoring on Positive and Unlabelled Event Logs](/PU){: .btn--custom}
+## The bigger picture
 
-[Dynamic and Scalable Data Preparation for Object-Centric Process Mining](/stackt){: .btn--custom}
+**Process mining** uses digital records of activities, called event logs, to understand how work happens. It can reveal the steps in a process, identify bottlenecks, and check whether practice matches the intended way of working.
 
-[Fairness in Predictive Process Monitoring](/fairness){: .btn--custom}
+**Machine learning** learns patterns from examples to make predictions about new data. In my research, those examples are often past process executions, such as completed orders or applications.
 
-[Trace Clustering](/clustering){: .btn--custom}
+**Predictive process monitoring (PPM)** uses what has happened in an ongoing case to predict what comes next: its next activity, remaining duration, or eventual outcome. These predictions can help people decide when and how to intervene.
 
-Other research lines to be added soon. For a full list of papers, you are refered to the [publications section](/publications).
+<details class="research-topic-list" markdown="1">
+<summary>Browse all research topics as a list</summary>
+
+### Understanding process behaviour
+
+* **[ML-driven conformance checking](/conformance/)** — Comparing observed behaviour with a process model using machine learning.
+* **[Trace clustering](/clustering/)** — Grouping similar process executions to make complex behaviour easier to understand.
+* **[Process model forecasting](/process-model-forecasting/)** — Predicting how an entire process will evolve over time.
+
+### Preparing reliable process data
+
+* **[Object-centric data preparation](/stackt/)** — Organizing events involving several connected objects, such as orders, items, and deliveries.
+* **[Data quality](/data-quality/)** — Understanding how errors in event and sensor data affect process-mining results.
+
+### Predicting ongoing processes
+
+* **[Generalization and validation](/generalization/)** — Testing whether predictive models learn process behaviour and handle unseen cases.
+* **[LLM adaptation for PPM](/llm-ppm/)** — Adapting large language models to process data and prediction tasks.
+* **[Explainability and robustness in PPM](/xai-robustness/)** — Understanding predictions and testing how they respond to changes in the input.
+* **[Fairness in PPM](/fairness/)** — Studying and reducing differences in predictions between sensitive groups.
+* **[Learning from incomplete labels](/PU/)** — Predicting outcomes when only some historical cases have a known label.
+* **[Remaining-time prediction](/remaining-time/)** — Estimating how long an ongoing case will take to finish.
+
+* **[Space-weather forecasting](/space-weather/)** — Earlier work on predicting geomagnetic storms with neural networks.
+
+</details>
+
+## Earlier work
+
+Before focusing on process mining, I studied [machine learning for space-weather forecasting](/space-weather/).
+
+Full citations and publication statuses are available on the [publications page](/publications/).

@@ -1,0 +1,120 @@
+hubs:
+  - id: ml
+    label: Machine Learning
+    title: Machine Learning
+    description: Learning patterns from past examples to make predictions about new data.
+    color: teal
+    x: 29
+    y: 43.75
+  - id: pm
+    label: Process Mining
+    title: Process Mining
+    description: Using event records to understand how work happens, find bottlenecks, and compare practice with a process model.
+    color: blue
+    x: 71
+    y: 43.75
+  - id: ppm
+    label: Predictive Process Monitoring
+    title: Predictive Process Monitoring
+    description: Using the events in an ongoing case to predict its next activity, remaining duration, or outcome.
+    color: amber
+    x: 50
+    y: 68.75
+
+topics:
+  - id: space-weather
+    label: Space weather
+    title: Space-weather forecasting
+    description: Using neural networks to anticipate geomagnetic storms.
+    url: /space-weather/
+    groups: [ml]
+    x: 9.5
+    y: 22.5
+  - id: forecasting
+    label: Process model forecasting
+    title: Process model forecasting
+    description: Predicting how an entire process will evolve over time.
+    url: /process-model-forecasting/
+    groups: [ml, pm]
+    x: 31
+    y: 14.375
+  - id: conformance
+    label: Conformance checking
+    title: ML-driven conformance checking
+    description: Comparing observed behaviour with a process model using machine learning.
+    url: /conformance/
+    groups: [ml, pm]
+    x: 52
+    y: 17.5
+  - id: clustering
+    label: Trace clustering
+    title: Trace clustering
+    description: Grouping similar process executions to make complex behaviour easier to understand.
+    url: /clustering/
+    groups: [ml, pm]
+    x: 73.5
+    y: 13.75
+  - id: object-centric
+    label: Object-centric data
+    title: Object-centric data preparation
+    description: Organizing events involving connected objects, such as orders, items, and deliveries.
+    url: /stackt/
+    groups: [pm]
+    x: 90.5
+    y: 22.5
+  - id: data-quality
+    label: Data quality
+    title: Data quality
+    description: Understanding how errors in event and sensor data affect process-mining results.
+    url: /data-quality/
+    groups: [pm]
+    x: 89
+    y: 52.5
+  - id: remaining-time
+    label: Remaining time
+    title: Remaining-time prediction
+    description: Estimating how long an ongoing case will take to finish.
+    url: /remaining-time/
+    groups: [ml, pm, ppm]
+    x: 89.5
+    y: 81.875
+  - id: fairness
+    label: Fairness
+    title: Fairness in predictive process monitoring
+    description: Studying and reducing differences in predictions between sensitive groups.
+    url: /fairness/
+    groups: [ml, pm, ppm]
+    x: 72
+    y: 90
+  - id: incomplete-labels
+    label: Incomplete labels
+    title: Learning from incomplete labels
+    description: Predicting outcomes when only some historical cases have a known label.
+    url: /PU/
+    groups: [ml, pm, ppm]
+    x: 50
+    y: 90
+  - id: xai-robustness
+    label: XAI & robustness
+    title: Explainability and robustness in predictive process monitoring
+    description: Understanding predictions and testing how they respond to changes in the input.
+    url: /xai-robustness/
+    groups: [ml, pm, ppm]
+    x: 28
+    y: 90
+  - id: llm
+    label: LLM adaptation
+    title: LLM adaptation for predictive process monitoring
+    description: Adapting large language models to process data and prediction tasks.
+    url: /llm-ppm/
+    groups: [ml, pm, ppm]
+    x: 10.5
+    y: 80.625
+  - id: generalization
+    label: Generalization & validation
+    title: Generalization and validation
+    description: Testing whether predictive models learn process behaviour and handle unseen cases.
+    url: /generalization/
+    groups: [ml, pm, ppm]
+    x: 10.5
+    y: 52.5
