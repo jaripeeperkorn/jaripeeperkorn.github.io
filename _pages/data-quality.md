@@ -23,6 +23,6 @@ We introduce a framework for measuring how data-quality issues affect the proces
 
 [Paper](https://doi.org/10.1007/978-3-032-18408-5_5) · [Code](https://github.com/MartinKabierski/event-log_pollution-analysis)
 
-For work on organizing and preparing event data, see [object-centric data preparation](/stackt/).
+For work on preparing event data and discovering object-centric processes, see [object-centric process mining](/stackt/).
 
 [All research topics](/research/)

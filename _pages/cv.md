@@ -93,7 +93,7 @@ An overview of my academic experience, teaching, and service.
   * Session organizer at the European Conference on Operational Research
   * Member of Technology and AI in Effective Management (TEAM), involved in organizing its first meet-up/conference in 2025
 * Program committee member for BPM, CAiSE, ICPM, and related workshops
-* Regular reviewer for Information Systems, Knowledge-Based Systems, Engineering Applications of Artificial Intelligence, Business & Information Systems Engineering, and Process Science
+* Regular reviewer for Information Systems, Knowledge-Based Systems, Engineering Applications of Artificial Intelligence, Business & Information Systems Engineering, and Process Science, among others
 * Member of Leuven.AI (2023–2027)
 * Member of the Permanent Educational Committee (POC/OC) for the Advanced Program on Artificial Intelligence in Business and Industry (2023–2026)
 

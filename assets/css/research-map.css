@@ -29,7 +29,7 @@
   aspect-ratio: 5 / 4;
   container-type: inline-size;
   isolation: isolate;
-  background-image: radial-gradient(ellipse at 29% 44%, #c8e8e849, transparent 33%), radial-gradient(ellipse at 71% 44%, #d9dffb66, transparent 33%), radial-gradient(ellipse at 50% 63.5%, #f8e7c76b, transparent 32%), radial-gradient(#a6b9c133 .8px, transparent .8px);
+  background-image: radial-gradient(ellipse at 29% 44%, #c8e8e849, transparent 33%), radial-gradient(ellipse at 71% 44%, #d9dffb66, transparent 33%), radial-gradient(ellipse at 50% 62.5%, #f8e7c76b, transparent 32%), radial-gradient(#a6b9c133 .8px, transparent .8px);
   background-size: auto, auto, auto, 22px 22px;
 }
 .research-map__edges { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }

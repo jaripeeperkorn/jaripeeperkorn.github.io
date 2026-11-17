@@ -1,11 +1,11 @@
 ---
 layout: archive
 permalink: /stackt/
-title: "Object-centric data preparation"
+title: "Object-centric process mining"
 author_profile: true
 ---
 
-A single business event can involve several connected objects, such as an order, an item, and an invoice. Object-centric process mining keeps those connections, and this work makes the data easier to collect, store, and analyse.
+A single business event can involve several connected objects, such as an order, an item, and an invoice. Object-centric process mining keeps those connections. My work covers preparing this data and using it to discover process models.
 
 ## PyStack't: Real-Life Data for Object-Centric Process Mining
 
@@ -30,6 +30,14 @@ We introduce Stack't, a database design and open-source data pipeline for prepar
 This community report proposes a shared core model for object-centric event data. It compares design choices and implementations to guide how such data can be exchanged and extended.
 
 [Paper](https://arxiv.org/abs/2410.14495)
+
+## Discovering high-quality process models despite data scarcity
+
+*ER Forum 2023.*
+
+We study how object-centric event logs preserve information about concurrent activities, allowing process discovery from fewer recorded executions. An evaluation framework and a manufacturing case study compare this approach with discovery from traditional event logs.
+
+[Paper](https://ceur-ws.org/Vol-3618/forum_paper_23.pdf)
 
 ## Data models
 
