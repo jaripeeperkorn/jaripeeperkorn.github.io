@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Machine learning for process understanding"
+title: "About me"
 description: "Jari Peeperkorn, FWO Postdoctoral Researcher at KU Leuven. Research on process mining, machine learning, and reliable predictive process monitoring."
 page_class: home-page
 author_profile: true
@@ -9,35 +9,21 @@ redirect_from:
   - /about.html
 ---
 
-I study how **machine learning** can help us understand business processes and make more reliable predictions about them.
-{: .home-intro}
+I am an **FWO Postdoctoral Researcher** in the [LIRIS research group](https://feb.kuleuven.be/research/decision-sciences-and-information-management/liris), at the Faculty of Economics and Business at **KU Leuven**, Belgium. My research focuses on the application of **machine learning** in **process mining**.
 
-I am an **FWO Postdoctoral Researcher** in the [LIRIS research group](https://feb.kuleuven.be/research/decision-sciences-and-information-management/liris) at **KU Leuven**, Belgium.
+I am currently working on an FWO junior postdoctoral fellowship on **robust multimodal prediction in business processes** (2024&ndash;2027), with Johannes De Smedt and Jochen De Weerdt.
 
-<div class="action-links">
-  <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
-  <a href="mailto:{{ site.author.email }}">Get in touch</a>
-</div>
+Other projects I have been involved in concern the evaluation of predictive process monitoring methods, ML-driven conformance checking, process model forecasting, and adversarial attacks for robustness testing in predictive process monitoring. Further details are available on the [research]({{ '/research/' | relative_url }}) and [publications]({{ '/publications/' | relative_url }}) pages.
 
-<div class="home-project" markdown="1">
-## Current research
+I defended my PhD dissertation, *Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining*, at KU Leuven in 2023. My earlier studies were in physics, astronomy, and astrophysics. See my [CV]({{ '/cv/' | relative_url }}) for further details.
 
-My FWO junior postdoctoral fellowship (2024&ndash;2027) focuses on **robust multimodal prediction in business processes**, with Johannes De Smedt and Jochen De Weerdt.
-
-Across my projects, I study how process models and data can support predictions that generalize, remain robust, and are easier to understand.
-</div>
+For questions about my work or possible collaborations, please [contact me](mailto:{{ site.author.email }}).
 
 <div class="home-pathways">
-  <a href="{{ '/publications/' | relative_url }}"><strong>Publications <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Journal articles, conference papers, and work in progress.</span></a>
-  <a href="{{ '/teaching/' | relative_url }}"><strong>Teaching <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Business analytics, machine learning, and research supervision.</span></a>
-  <a href="{{ '/talks/' | relative_url }}"><strong>Talks <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Conference presentations, slides, and recordings.</span></a>
+  <a href="{{ '/publications/' | relative_url }}"><strong>Publications <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Journal articles, conference papers, and preprints.</span></a>
+  <a href="{{ '/teaching/' | relative_url }}"><strong>Teaching <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Courses and research supervision.</span></a>
+  <a href="{{ '/talks/' | relative_url }}"><strong>Talks <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Presentations, slides, and recordings.</span></a>
 </div>
-
-## Background
-
-I completed my PhD in Business Economics at KU Leuven in 2023, with a dissertation on *Novel Conformance Checking Methods and Validation Strategies for Deep Learning in Process Mining*. Before that, I studied physics, astronomy, and astrophysics.
-
-See my [CV]({{ '/cv/' | relative_url }}) for my academic experience, teaching, and service. I welcome conversations about research and collaboration.
 
 <div class="affiliation-logos" aria-label="Research funding and affiliation">
   <img src="{{ '/images/fwo.jfif' | relative_url }}" width="1258" height="250" alt="Research Foundation - Flanders (FWO)" loading="lazy" decoding="async">
