@@ -73,6 +73,7 @@
 .research-map__label { display: block; max-width: 100%; overflow-wrap: normal; word-break: normal; hyphens: none; }
 .research-map__label-line { display: block; white-space: nowrap; }
 .research-map__groups { display: none; }
+.research-map__category { display: none; }
 .research-map .research-map__node--hub {
   width: clamp(130px, 16cqw, 172px);
   height: clamp(130px, 16cqw, 172px);
@@ -143,6 +144,17 @@
   }
   .research-map__node--hub .research-map__eyebrow { display: none; }
   .research-map__node--hub .research-map__label-line { display: inline; }
+  .research-map .research-map__category {
+    display: block;
+    grid-column: 1 / -1;
+    margin: .75rem 0 0;
+    padding: .65rem 0 0;
+    border-top: 1px solid #dce6e9;
+    color: var(--map-ink);
+    font-size: .95rem;
+    font-weight: 650;
+    line-height: 1.4;
+  }
   .research-map__groups { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px; }
   .research-map__group { padding: 2px 7px; border-radius: 20px; font-size: 11px; line-height: 1.4; font-weight: 700; }
   .research-map__group--ml { color: #075d63; background: #d6eeed; }

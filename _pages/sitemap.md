@@ -19,7 +19,7 @@ description: "Find research topics, publications, teaching, talks, and Jari Peep
 ## Research topics
 
 * [ML-driven Conformance Checking]({{ '/conformance/' | relative_url }})
-* [Neurosymbolic]({{ '/neurosymbolic/' | relative_url }})
+* [Neurosymbolic Process Mining]({{ '/neurosymbolic/' | relative_url }})
 * [Trace Clustering]({{ '/clustering/' | relative_url }})
 * [Process Model Forecasting]({{ '/process-model-forecasting/' | relative_url }})
 * [Object-centric data preparation]({{ '/stackt/' | relative_url }})

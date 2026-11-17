@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /neurosymbolic/
-title: "Neurosymbolic"
+title: "Neurosymbolic Process Mining"
 author_profile: true
 ---
 

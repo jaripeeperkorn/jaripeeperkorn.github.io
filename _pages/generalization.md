@@ -33,6 +33,6 @@ We introduce an evaluation framework for testing whether neural networks learn p
 
 ![Experimental setup for assessing whether neural networks learn process structure](/images/gen.PNG)
 
-For work on incorporating process knowledge into model training, see [Neurosymbolic](/neurosymbolic/).
+For work on incorporating process knowledge into model training, see [Neurosymbolic Process Mining](/neurosymbolic/).
 
 [All research topics](/research/)
