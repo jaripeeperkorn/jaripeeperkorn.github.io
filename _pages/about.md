@@ -20,9 +20,10 @@ I defended my PhD dissertation, *Novel Conformance Checking Methods and Validati
 For questions about my work or possible collaborations, please [contact me](mailto:{{ site.author.email }}).
 
 <div class="home-pathways">
-  <a href="{{ '/publications/' | relative_url }}"><strong>Publications <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Journal articles, conference papers, and preprints.</span></a>
-  <a href="{{ '/teaching/' | relative_url }}"><strong>Teaching <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Courses and research supervision.</span></a>
-  <a href="{{ '/talks/' | relative_url }}"><strong>Talks <span aria-hidden="true" class="home-pathways__arrow">&nearr;</span></strong><span>Presentations, slides, and recordings.</span></a>
+  <a href="{{ '/research/' | relative_url }}"><strong>Research</strong><span>Research topics and summaries of individual papers.</span></a>
+  <a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong><span>Journal articles, conference papers, and preprints.</span></a>
+  <a href="{{ '/teaching/' | relative_url }}"><strong>Teaching</strong><span>Courses and research supervision.</span></a>
+  <a href="{{ '/talks/' | relative_url }}"><strong>Talks</strong><span>Presentations, slides, and recordings.</span></a>
 </div>
 
 <div class="affiliation-logos" aria-label="Research funding and affiliation">

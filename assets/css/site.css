@@ -75,8 +75,8 @@ body.site-shell {
 .profile-links summary { padding: .55rem 0; color: var(--site-muted); font-size: .75rem; font-weight: 600; cursor: pointer; }
 .profile-links ul { list-style: none; padding: .25rem 0 0; margin: 0; }
 .profile-links li { margin: 0; }
-.profile-links a { display: flex; align-items: center; justify-content: space-between; min-height: 38px; padding: .25rem 0; font-size: .78rem; text-decoration: none; }
-.profile-links a span { color: #81949e; }
+.profile-links a { display: flex; align-items: center; justify-content: flex-start; gap: .6rem; min-height: 38px; padding: .25rem 0; font-size: .78rem; text-decoration: none; }
+.profile-links__icon { flex: 0 0 1.15rem; width: 1.15rem; font-size: 1rem; text-align: center; }
 .content-intro { color: var(--site-muted); font-size: 1.05rem; line-height: 1.7; }
 .action-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.3rem; margin: 1.2rem 0 1.7rem; }
 .action-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: .88rem; font-weight: 600; }
@@ -106,12 +106,11 @@ body.site-shell {
 .talk-map iframe { display: block; width: 100%; height: clamp(320px, 65vh, 600px); border: 1px solid var(--site-line); border-radius: 12px; }
 .home-page .page__title { max-width: 750px; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; }
 .home-page .home-intro { max-width: 720px; color: var(--site-muted); font-size: 1.12rem; }
-.home-pathways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 2.2rem 0; }
+.home-pathways { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 2.2rem 0; }
 .home-pathways > a { display: block; padding: 1.1rem; border: 1px solid var(--site-line); border-radius: 12px; text-decoration: none; background: #f7fafb; }
 .home-pathways > a:hover { background: #edf5f6; border-color: #b5cfd2; }
 .home-pathways strong { display: block; margin-bottom: .45rem; font-size: 1rem; }
 .home-pathways span { display: block; color: var(--site-muted); font-size: .83rem; line-height: 1.55; }
-.home-pathways .home-pathways__arrow { display: inline; }
 .home-project { padding: 1.5rem; border-left: 3px solid var(--site-accent); border-radius: 0 12px 12px 0; background: var(--site-soft); }
 .home-project h2 { margin: 0 0 .75rem; padding: 0; border: 0; font-size: 1.3rem; }
 .home-project p:last-child { margin-bottom: 0; }
